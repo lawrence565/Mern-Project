@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CourseService from "../services/course.service";
-import { course } from "../../../server/routes";
 
 const CourseComponent = ({ currentUser, setCurrentUser }) => {
   const navigate = useNavigate();
@@ -49,20 +48,20 @@ const CourseComponent = ({ currentUser, setCurrentUser }) => {
           <h1>歡迎來到講師課程頁面</h1>
         </div>
       )}
-      {currentUser && courseData && courseDate.length != 0 && (
+      {currentUser && courseData && courseData.length != 0 && (
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           {courseData.map((course) => {
             return (
               <div className="card" style={{ width: "18rem", margin: "1rem" }}>
                 <div className="card-body">
                   <h5 className="card-title">課程名稱：{course.title}</h5>
-                  <p style={(margin = "0.5rem 0rem")} className="card-text">
+                  <p style={{ margin: "0.5rem 0rem" }} className="card-text">
                     {course.description}
                   </p>
-                  <p style={(margin = "0.5rem 0rem")}>
+                  <p style={{ margin: "0.5rem 0rem" }}>
                     學生人數：{course.student.length}
                   </p>
-                  <p style={(margin = "0.5rem 0rem")}>
+                  <p style={{ margin: "0.5rem 0rem" }}>
                     課程價格：{course.price}
                   </p>
                 </div>

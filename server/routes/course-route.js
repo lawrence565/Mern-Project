@@ -1,5 +1,3 @@
-const { course } = require(".");
-
 const router = require("express").Router();
 const Course = require("../models").course;
 const courseValidation = require("../validation").courseValidator;

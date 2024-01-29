@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import React from "react";
 import Layout from "./components/Layout";
 import HomeComponents from "./components/home-component";
 import RegisterComponents from "./components/register-component";
@@ -12,11 +13,6 @@ import AuthService from "./services/auth.service";
 
 function App() {
   let [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
-  console.log(currentUser);
-  if (currentUser) {
-    console.log("他會執行");
-  }
-
   return (
     <BrowserRouter>
       <Routes>
@@ -67,7 +63,7 @@ function App() {
           <Route
             path="enroll"
             element={
-              <PEnrollComponent
+              <EnrollComponent
                 currentUser={currentUser}
                 setCurrentUser={setCurrentUser}
               />
