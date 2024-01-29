@@ -4,13 +4,15 @@
   "description": "it's a new project for MERN practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "Mern"
   ],
   "author": "Lawrence Wu",
   "license": "ISC",
+  "homepage": "https://lawrence565.github.io/client/src/index.js",
   "dependencies": {
     "all": "^0.0.0",
     "bcrypt": "^5.1.1",
