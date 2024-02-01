@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/your-repo-name/static/js/main.7373a669.chunk.js",
-    "main.js.map": "/your-repo-name/static/js/main.7373a669.chunk.js.map",
-    "runtime~main.js": "/your-repo-name/static/js/runtime~main.deb37ce2.js",
-    "runtime~main.js.map": "/your-repo-name/static/js/runtime~main.deb37ce2.js.map",
-    "static/js/2.1f5189bf.chunk.js": "/your-repo-name/static/js/2.1f5189bf.chunk.js",
-    "static/js/2.1f5189bf.chunk.js.map": "/your-repo-name/static/js/2.1f5189bf.chunk.js.map",
-    "index.html": "/your-repo-name/index.html",
-    "precache-manifest.778168357acab537a932ff9cad76ff6d.js": "/your-repo-name/precache-manifest.778168357acab537a932ff9cad76ff6d.js",
-    "service-worker.js": "/your-repo-name/service-worker.js"
+    "main.js": "/lawrence565.github.io/static/js/main.7373a669.chunk.js",
+    "main.js.map": "/lawrence565.github.io/static/js/main.7373a669.chunk.js.map",
+    "runtime~main.js": "/lawrence565.github.io/static/js/runtime~main.e9e5454d.js",
+    "runtime~main.js.map": "/lawrence565.github.io/static/js/runtime~main.e9e5454d.js.map",
+    "static/js/2.1f5189bf.chunk.js": "/lawrence565.github.io/static/js/2.1f5189bf.chunk.js",
+    "static/js/2.1f5189bf.chunk.js.map": "/lawrence565.github.io/static/js/2.1f5189bf.chunk.js.map",
+    "index.html": "/lawrence565.github.io/index.html",
+    "precache-manifest.9b0580968858d6757f158b277dc9169b.js": "/lawrence565.github.io/precache-manifest.9b0580968858d6757f158b277dc9169b.js",
+    "service-worker.js": "/lawrence565.github.io/service-worker.js"
   }
 }
